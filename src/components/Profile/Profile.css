@@ -64,7 +64,7 @@
 .Logo{
     margin-top: 25px;
     text-align: center;
-list-style: none;
+    list-style: none;
     }
 
 #share{
@@ -73,6 +73,10 @@ list-style: none;
     margin-right: 370px;
     margin-top: -180px;
     max-width: 400px;
+    }
+
+#menu {
+    display: none
     }
 
 .footer{

@@ -1,0 +1,303 @@
+#profile_img {
+    padding-top: 10px;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    text-align: center;
+    }
+    
+#profile_container{
+    text-align: center;
+       
+    }
+    
+#slack {
+    display: none;
+    }
+    
+#twitter a{
+    text-decoration: none;
+    }
+    
+.nomen {
+    padding: 0px;
+    }
+    
+#twitter {
+    padding: 5px;
+    margin-top: -15px;
+    }
+
+
+.btn-cont{
+    text-align: center;
+    display: block;   
+    }
+    
+.btn-cont a{ 
+    text-align: center;
+    display: block;
+    color: black;
+    font-weight: 480;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background: rgba(168, 163, 163, 0.199);
+    border: 0.2px solid rgba(197, 196, 196, 0.151);
+    text-decoration: none;
+    }
+    
+.btn-cont a:hover {
+    background: rgba(67, 67, 70, 0.336);
+    color: black;
+    }
+
+#logo_img {
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 4px;
+    display: inline-block;
+       
+    }
+    
+.Logo{
+    margin-top: 25px;
+    text-align: center;
+list-style: none;
+    }
+
+#share{
+    display: flex;
+    float: right;
+    margin-right: 370px;
+    margin-top: -180px;
+    max-width: 400px;
+    }
+
+.footer{
+    display: flex;
+    margin-top: 5rem;
+    border-top: 1px solid #8080806b;
+    padding: 35px;
+    border-radius: 6px;
+    background: white;
+    }
+    
+.footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    }
+    
+#right{
+    display: flex;
+    width: 12%; 
+    text-align: center;
+    }
+    
+#left{
+    width: 42%;
+    margin-left: 30px;
+    }
+    
+#center{
+    width: 46%; 
+    
+    }
+.col {
+    color: red;
+    }
+    
+.light{
+    color: rgba(0, 0, 0, 0.438);
+    }
+
+    @media screen and (max-width: 768px) {
+
+        #share{
+            display: flex;
+            float: right;
+            margin-right: 170px;
+            margin-top: -180px;
+            max-width: 200px;
+        }
+        #menu {
+            display: none
+        }
+
+        .nomen {
+            margin-left: 8px;
+        }
+
+.footer {
+    display: flex;
+        }
+    
+#right a{
+    margin-top: 0px;
+        }
+    
+       
+#right{
+    display: flex;
+    width: 12%; 
+    text-align: center;
+    margin-bottom: 0px;
+        }
+    
+#left{
+    width: 35%;
+     }
+    
+ #center{
+    width: 42%; 
+ }
+    
+ #logo-img {
+     margin-top: 0px;
+        }
+    }
+    
+    @media screen and (max-width: 425px) {
+        
+        #menu{
+            display: flex;
+            float: right;
+            margin-right: 30px;
+            margin-top: -180px;
+            max-width: 400px;
+        }
+
+        #share{
+            display: none;
+        }
+
+        .nomen {
+            margin-left: 8px;
+        }
+
+        .btn-cont a{
+            padding-bottom: 20px;  
+            font-weight: 400;
+            }
+        
+        .btn-cont a:hover {
+                background: #43434656;
+                color: black;
+                border: 0.5px solid #525151b2;
+            }
+        
+        #pitch {
+           padding: 15px 2px 15px 2px;
+           margin-bottom: 10px;
+        }
+
+        .footer {
+            padding: 0px;
+            text-align: center;
+            display: block;
+            
+        }
+    
+        #right{
+            display: flex;
+        }
+    
+        #right a{
+            margin-top: 5.3px;
+        }
+    
+        #logo-img {
+            margin-top: 3px;
+        }
+    
+        #center {
+            display: flex;
+             width: 70%;
+           }
+    
+        #center a{
+            margin-left: 3px;
+           }
+    
+        #left{
+            width: 5%;
+           }
+    
+        #left a{
+            margin-left: -23px;
+           }
+    
+        #dot {
+            margin-left: 1px;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        #center a{
+            margin-left: -120px;
+           }
+    
+           #center{
+            display: flex;
+            width: 70%;
+           }
+    
+           #center a{
+            margin-left: 5px;
+           }
+    
+    
+           #left {
+            text-align: left;
+            margin-left: 30px;
+           }
+    
+           .footer {
+            display: block;
+           }
+    
+    }
+
+    @media screen and (max-width: 320px){
+        #menu{
+            display: flex;
+            float: right;
+            margin-right: 30px;
+            margin-top: -180px;
+            max-width: 400px;
+        }
+
+        #share{
+            display: none;
+        }
+
+        .footer {
+            display: block;
+            text-align: center;
+            padding: 15px;
+        }
+    
+        #left {
+            margin-left: 25px;
+        }
+    
+        #center {
+            display: flex;
+             width: 80%;
+           }
+    
+           #center a {
+           margin-left: 0px;
+           }
+    
+    
+        #right{
+            width: 20%;
+        }
+    
+        #dot {
+            margin-left: -2px;
+        }
+    } 

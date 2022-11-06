@@ -40,7 +40,7 @@ const Profile = () => {
         <a href="https://books.zuri.team/design-rules" id="design_book">
           Design Books{" "}
         </a>
-       <Link to="/Contact"> Contact Me</Link>
+       <Link id="contact" to="/Contact"> Contact Me</Link>
       </div>
 
       {/* <div className="Logo">
